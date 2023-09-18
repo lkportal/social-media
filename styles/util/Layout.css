@@ -3,22 +3,34 @@
 .conteiner-main{
     display: flex;
     background-color: #fff;
-    margin: 2em;
+   justify-content: center;
     
 }
 .conteiner-left{
     display: flex;
     flex-direction: column;
-    margin: 2em 2em;
+    margin: 2em 1em;
 }
 .conteiner-list{
     margin-top: 1em;
 }
 .downloard-app{
-    margin-top: 2em;
+    margin-top: 20px;
     padding: 1em;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+/*
+Conteiner Central     
+*/
+.conteiner-center{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.conteiner-header-nav{
+    display: flex;
+    justify-content: space-between;
 }

@@ -50,6 +50,8 @@
     border-radius: 5%;
     color: #fff;
     cursor: pointer;
+    margin: 0 5px;
+    width: 100px;
     
 }
 #imgsList{
@@ -57,9 +59,7 @@
     height: 15px;
     margin-top: 1em;
 }
-#imgsList:hover{
-    color: #fff;
-}
+
 #imgDownloadApp{
     width: 50px;
     height: 50px;
@@ -69,4 +69,24 @@
 #text-app{
     font-size: 10px;
     margin-right: 50px;
+    
+}
+
+/*
+ Modulos do centro
+*/
+.conteiner-list-post{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.conteiner-list-post>li{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 0.5em;
+}
+#textFeed{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-align: start;
 }
