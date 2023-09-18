@@ -9,18 +9,64 @@
 #imgTop{
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+}
+#imgTop:nth-child(2){
+    position: relative;
+    z-index: 2;  
+}
+#imgTop:nth-child(1){
+    position: relative;
+    z-index: 1;
+    left: 10px;
 }
 .imgs{
     display: flex;
     justify-content: flex-start;
-
+    margin-bottom: 10px;
 }
 .nick-name{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-
 }
 .nick-name > h1,h2{
     margin: 0 0.5em;
+    font-size: 13px; 
+    text-align: center;  
+}
+.nick-name > h2{
+    font-weight: 300;
+    font-size: 10px;
+    
+}
+.conteiner-list-nav >li{
+    list-style: none;
     font-size: 15px;
+    font-weight: 500;
+}
+.conteiner-list-nav > li:hover{
+    background-color: #000;
+    border-radius: 5%;
+    color: #fff;
+    cursor: pointer;
+    
+}
+#imgsList{
+    width: 15px;
+    height: 15px;
+    margin-top: 1em;
+}
+#imgsList:hover{
+    color: #fff;
+}
+#imgDownloadApp{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: hard-light;
+    
+}
+#text-app{
+    font-size: 10px;
+    margin-right: 50px;
 }
