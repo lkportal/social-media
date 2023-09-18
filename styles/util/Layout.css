@@ -1,0 +1,11 @@
+
+
+.conteiner-main{
+    display: flex;
+    
+}
+.conteiner-left{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 2em;
+}

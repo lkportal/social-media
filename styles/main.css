@@ -1,0 +1,8 @@
+@import url(./util/Layout.css);
+@import url(./util/Modulos.css);
+@import url(./util/Elements.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
