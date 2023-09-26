@@ -28,9 +28,31 @@ Conteiner Central
 .conteiner-center{
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin: 2em;
 }
 .conteiner-header-nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+.conteiner-post{
+    display: flex;
+   background-color:#89E6F4;
+   border-radius: 5%;
+    width: 250px;
+    padding: 1em;
+    flex-direction: column;
+}
+.conteiner-right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.suggestions{
+    display: flex;
+    flex-direction: column;
+}
+.recommendations{
+    display: flex;
+    flex-direction: column;
 }

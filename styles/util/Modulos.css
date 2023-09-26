@@ -47,7 +47,7 @@
 }
 .conteiner-list-nav > li:hover{
     background-color: #000;
-    border-radius: 5%;
+    border-radius: 10px 10px ;
     color: #fff;
     cursor: pointer;
     margin: 0 5px;
@@ -85,8 +85,137 @@
     margin-top: 10px;
     margin-left: 0.5em;
 }
+.conteiner-list-post>li:hover{
+    font-weight: bold ;
+    cursor: pointer;
+}
 #textFeed{
     font-size: 20px;
     font-family: 'Lobster', cursive;
     text-align: start;
+}
+.ft-post{
+    display: flex;
+
+
+}
+#imgPerfil{
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+}
+.namePerfil{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 700;
+
+}
+#timePost{
+    font-size: 7px;
+    margin-left: 30px;
+    
+}
+.conteiner-list-like{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.conteiner-list-like>li{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.conteiner-imgs{
+    display: flex;
+}
+#imgPost{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+   
+}
+#iconsList{
+    
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+}
+
+.conteiner-list-post ~ img{
+  margin-top:10px;
+}
+
+
+/* Conteiner right*/
+.conteiner-story{
+  margin-top: 30px;
+}
+#titleStory{
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+}
+.ft-story{
+    display: flex;
+    margin: 20px 0;
+   
+
+}
+#imgStors{
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    border-radius:5;
+    
+}
+.possible-friends{
+    display: flex;
+}
+.ft-name{
+    display: flex;
+}
+#imgSuggestion{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin:5px
+}
+#Textsuggestions{
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+#nameSuggestions{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.btn-follow{
+    width: 30px;
+    font-size: 5px;
+    margin:  10px 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px 5px ;
+}
+#textSellAll{
+    margin: 10px 10px;
+    font-size: 10px;
+ 
+}
+.conteiner-recommendations{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+}
+#imgRecomendations{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#textRecomendation{
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
 }
